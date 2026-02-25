@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ПОПП «Еліта» | Новий еталон інтенсивного садівництва</title>
+
+    <!-- Google Fonts: Bodoni Moda (Headings) & Montserrat (Body text) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cinzel:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Main Styles & Script -->
+    <link rel="stylesheet" href="style.css">
+    <script src="lang.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar fade-in">
+        <div class="container nav-content">
+            <div class="logo" style="line-height: 1.1;">
+                Elite Hazelnut
+                <span
+                    style="display: block; font-size: 0.45em; letter-spacing: 5px; color: var(--accent-color); font-family: var(--font-body); text-transform: uppercase; margin-top: 2px;">Company</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#project" data-i18n="nav_project">Проєкт</a></li>
+                <li><a href="#genetics" data-i18n="nav_quality">Якість</a></li>
+                <li><a href="#eco-tech" data-i18n="nav_tech">Технології</a></li>
+                <li><a href="#contacts" data-i18n="nav_contacts">Контакти</a></li>
+            </ul>
+            <div class="lang-switcher">
+                <span class="lang-btn active" data-lang="uk" onclick="setLang('uk')">UA</span>
+                <span class="lang-btn" data-lang="en" onclick="setLang('en')">EN</span>
+                <span class="lang-btn" data-lang="it" onclick="setLang('it')">IT</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <!-- Overlay for darker background -->
+        <div class="hero-overlay"></div>
+        <div class="container hero-content fade-in">
+            <h1 class="hero-title" data-i18n="hero_title">ПОПП «Еліта»</h1>
+            <h2 class="hero-subtitle" data-i18n="hero_subtitle">Новий еталон інтенсивного садівництва.</h2>
+            <p class="hero-text" data-i18n="hero_text">Ми об’єднали багатовіковий досвід італійських селекціонерів із
+                потенціалом українського
+                чорнозему. Наш сад у Тетієві — це втілення майбутнього агропромисловості, де кожен гектар працює за
+                найвищими світовими стандартами.</p>
+            <a href="#project" class="btn btn-primary" data-i18n="hero_btn">Ознайомитися з проєктом</a>
+        </div>
+    </header>
+
+    <!-- Project Section (About) -->
+    <section class="section project" id="project">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title" data-i18n="proj_title">Масштаб, що вражає. Технології, що надихають.</h2>
+            </div>
+
+            <div class="project-content">
+                <div class="project-text fade-in">
+                    <p data-i18n="proj_p1">Проєкт промислового вирощування фундука ми розпочали у 2018 році. Сьогодні
+                        площа насаджень
+                        становить понад <strong>500 гектарів</strong> на околицях м. Тетіїв (ТОВ "ПОПП ЕЛІТА").</p>
+                    <p data-i18n="proj_p2">Фундук — це окультурена форма ліщини, рідної для українських лісів, але наш
+                        підхід перетворив
+                        його на високотехнологічний та високоефективний бізнес.</p>
+                    <p data-i18n="proj_p3">Наш сад створений за суворими італійськими стандартами. Ми інтегрували в
+                        нього передові світові
+                        рішення: від автоматизованого моніторингу стану дерева до інтелектуальних систем живлення.
+                        Сьогодні це не просто сільськогосподарське підприємство, а екосистема, яка буде актуальною
+                        десятиліттями.</p>
+                </div>
+
+                <div class="stats-grid fade-in delay-1">
+                    <div class="stat-card">
+                        <i class="fa-solid fa-location-dot stat-icon"></i>
+                        <h3 data-i18n="loc_title">Локація</h3>
+                        <p data-i18n="loc_desc">м. Тетіїв, Київська область.</p>
+                    </div>
+                    <div class="stat-card">
+                        <svg viewBox="0 0 24 24" width="40" height="40" fill="currentColor" class="stat-icon"
+                            style="margin: 0 auto 20px auto; display: block;">
+                            <path
+                                d="M17,8C17,5.24 14.76,3 12,3C9.24,3 7,5.24 7,8C4.24,8 2,10.24 2,13C2,15.76 4.24,18 7,18H10V22H14V18H17C19.76,18 22,15.76 22,13C22,10.24 19.76,8 17,8Z">
+                            </path>
+                        </svg>
+                        <h3 data-i18n="stat_title">Статус</h3>
+                        <p data-i18n="stat_desc">Один із найбільших інтенсивних садів України.</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fa-solid fa-satellite-dish stat-icon"></i>
+                        <h3 data-i18n="inno_title">Інновації</h3>
+                        <p data-i18n="inno_desc">Впровадження систем точного землеробства з першого дня закладання.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Genetics Section -->
+    <section class="section genetics" id="genetics">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title text-light" data-i18n="gen_title">Фундук преміальної якості.</h2>
+                <p class="section-subtitle text-light" style="color: #ccc;" data-i18n="gen_sub">Основа нашого успіху —
+                    безкомпромісний вибір
+                    сортів. Ми вирощуємо легендарні італійські сорти, що цінуються найкращими кондитерами світу за їхній
+                    смак, аромат та калібр.</p>
+            </div>
+
+            <!-- Variety 1 -->
+            <div class="variety-row fade-in delay-1">
+                <div class="variety-image">
+                    <img src="foto 4.jpg" alt="Фундук Tonda Gentile" class="variety-img">
+                </div>
+                <div class="variety-info">
+                    <ul class="variety-list text-light">
+                        <li>
+                            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" class="gold-icon"
+                                style="flex-shrink: 0; margin-top: 5px;">
+                                <path
+                                    d="M17,8C17,5.24 14.76,3 12,3C9.24,3 7,5.24 7,8C4.24,8 2,10.24 2,13C2,15.76 4.24,18 7,18H10V22H14V18H17C19.76,18 22,15.76 22,13C22,10.24 19.76,8 17,8Z">
+                                </path>
+                            </svg>
+                            <div class="variety-content">
+                                <strong class="variety-title text-light" data-i18n="v1_title">1. Tonda Gentile</strong>
+                                <p class="variety-desc text-light" data-i18n="v1_desc">Цей сорт вважається найкращим у
+                                    світі для кондитерської
+                                    промисловості завдяки своїм неперевершеним органолептичним властивостям.</p>
+                                <ul class="variety-features text-light">
+                                    <li><span data-i18n="origin_lbl">Походження:</span> <span
+                                            data-i18n="v1_origin">Регіон П’ємонт, Північна Італія.</span></li>
+                                    <li><span data-i18n="fruit_lbl">Характеристики плоду:</span> <span
+                                            data-i18n="v1_fruit">Горіх середнього розміру, має виражену
+                                            трилопатеву (тригранну) форму. Шкаралупа тонка, але міцна.</span></li>
+                                    <li><span data-i18n="kernel_lbl">Ядро:</span> <span data-i18n="v1_kernel">Сферичне,
+                                            з дуже високим виходом чистого ядра (46–48%). Легко
+                                            бланшується (очищується від плівки) після обсмажування.</span></li>
+                                    <li><span data-i18n="taste_lbl">Смаковий профіль:</span> <span
+                                            data-i18n="v1_taste">Має інтенсивний, стійкий аромат та солодкий
+                                            посмак. Вважається еталоном для виробництва преміального шоколаду та
+                                            джандуї.</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" class="gold-icon"
+                                style="flex-shrink: 0; margin-top: 5px;">
+                                <path
+                                    d="M17,8C17,5.24 14.76,3 12,3C9.24,3 7,5.24 7,8C4.24,8 2,10.24 2,13C2,15.76 4.24,18 7,18H10V22H14V18H17C19.76,18 22,15.76 22,13C22,10.24 19.76,8 17,8Z">
+                                </path>
+                            </svg>
+                            <div class="variety-content">
+                                <strong class="variety-title text-light" data-i18n="v2_title">2. Tonda di
+                                    Giffoni</strong>
+                                <p class="variety-desc text-light" data-i18n="v2_desc">Сорт, що є візитною карткою
+                                    регіону Кампанія. Він цінується за
+                                    ідеальну калібровку та універсальність.</p>
+                                <ul class="variety-features text-light">
+                                    <li><span data-i18n="origin_lbl">Походження:</span> <span
+                                            data-i18n="v2_origin">Провінція Салерно, Італія.</span></li>
+                                    <li><span data-i18n="fruit_lbl">Характеристики плоду:</span> <span
+                                            data-i18n="v2_fruit">Горіх великого або середнього розміру, майже
+                                            ідеально круглої форми.</span></li>
+                                    <li><span data-i18n="kernel_lbl">Ядро:</span> <span data-i18n="v2_kernel">Біле,
+                                            хрустке, з відмінною текстурою. Вихід ядра становить
+                                            44–47%.</span></li>
+                                    <li><span data-i18n="taste_lbl">Смаковий профіль:</span> <span
+                                            data-i18n="v2_taste">Дуже ароматний сорт, який розкривається під час
+                                            термічної обробки. Його форма робить його ідеальним для використання в
+                                            цілому
+                                            вигляді всередині цукерок та батончиків.</span></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="fade-in delay-2" style="text-align: center;">
+                <p class="highlight-text text-light" style="display: inline-block; text-align: left;"
+                    data-i18n="export_txt">Завдяки професійному догляду,
+                    навіть у складні кліматичні сезони ми отримуємо продукцію, якість якої порівнянна з кращими зразками
+                    чилійського фундука. Весь врожай контрактується на експорт.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Eco & Tech Section -->
+    <section class="section eco-tech" id="eco-tech" style="background-color: var(--bg-light);">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title" data-i18n="eco_title">Екологічність та Технології</h2>
+                <p class="section-subtitle" data-i18n="eco_sub">Сучасний підхід до вирощування, що зберігає довкілля та
+                    гарантує стабільну
+                    якість.</p>
+            </div>
+
+            <div class="benefits-grid fade-in delay-1">
+                <div class="benefit-item">
+                    <i class="fa-solid fa-leaf"></i>
+                    <h4 data-i18n="b1_title">Екологічна чистота</h4>
+                    <p data-i18n="b1_desc">Зведене до мінімуму пестицидне навантаження зберігає чистоту ґрунтів і
+                        довкілля.</p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fa-solid fa-users-gear"></i>
+                    <h4 data-i18n="b2_title">Оптимізація ресурсів</h4>
+                    <p data-i18n="b2_desc">Потребує мінімум ручної праці. 100 га саду обслуговують лише 5-7
+                        кваліфікованих спеціалістів.</p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fa-solid fa-warehouse"></i>
+                    <h4 data-i18n="b3_title">«Зелене» зберігання</h4>
+                    <p data-i18n="b3_desc">Зберігання горіха не потребує енергозатратних величезних холодильників з
+                        активним охолодженням.
+                    </p>
+                </div>
+            </div>
+
+            <div class="text-content-blocks"
+                style="margin-top: 60px; display: grid; grid-template-columns: 1fr 1fr; gap: 40px;">
+                <div class="text-block fade-in delay-2"
+                    style="background: #fdfdf9; padding: 40px; border-radius: 8px; border-left: 4px solid var(--accent-color); box-shadow: 0 10px 30px rgba(0,0,0,0.03);">
+                    <h3 style="margin-bottom: 20px; font-size: 1.5rem; color: var(--primary-color);"
+                        data-i18n="gold_title">Золото для здоров'я
+                    </h3>
+                    <p style="margin-bottom: 15px;" data-i18n="gold_p1">Фундук — це культура, яка має тисячолітню
+                        історію і завжди
+                        цінувалася за смак та унікальний склад. Його плоди по праву вважаються "золотом" завдяки високій
+                        поживній цінності.</p>
+                    <p data-i18n="gold_p2">Це продукт свідомого споживання, який ідеально вписується у рамки правильного
+                        харчування. Він
+                        формує ставлення до їжі як до цінності, а не як до порожніх калорій.</p>
+                </div>
+
+                <div class="text-block fade-in delay-2"
+                    style="background: var(--bg-gray); padding: 40px; border-radius: 8px; border-left: 4px solid var(--primary-color); box-shadow: 0 10px 30px rgba(0,0,0,0.03);">
+                    <h3 style="margin-bottom: 20px; font-size: 1.5rem; color: var(--primary-color);"
+                        data-i18n="futu_title">Внесок у майбутнє
+                    </h3>
+                    <p style="margin-bottom: 15px;" data-i18n="futu_p1">Багаторічні насадження сприяють збереженню
+                        екосистеми регіону. Один
+                        фундуковий сад може повноцінно плодоносити 50 років, а попит на поживні горіхи в світі стабільно
+                        зростає.</p>
+                    <p data-i18n="futu_p2">Наші горіхи проходять шлях від садів Київщини до полиць магазинів по всьому
+                        світу. Ми створюємо
+                        технологічне майбутнє сільського господарства України.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contacts -->
+    <footer class="footer" id="contacts">
+        <div class="container">
+            <div class="footer-grid fade-in">
+                <div class="footer-info">
+                    <h2 class="footer-logo" data-i18n="foot_logo">ПОПП «ЕЛІТА»</h2>
+                    <p class="company-desc" data-i18n="foot_desc">Приватне орендне племінне підприємство «Еліта».</p>
+                    <p data-i18n="foot_chief">Завжди на зв'язку. Директор — Мостова Леся Анатоліївна.</p>
+                </div>
+                <div class="footer-contacts">
+                    <h3 data-i18n="foot_ct_title">Контакти</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-map-location-dot"></i> <span data-i18n="foot_addr">Україна, Київська
+                                обл., м. Тетіїв.</span></li>
+                        <li><i class="fa-solid fa-envelope"></i> <a
+                                href="mailto:info@poappelita.com.ua">info@poappelita.com.ua</a></li>
+                        <li><i class="fa-solid fa-phone"></i> <a href="tel:+380000000000">+38 (000) 000-00-00</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom fade-in delay-1">
+                <p data-i18n="foot_copy">&copy; 2026 ПОПП «Еліта». Усі права захищені.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Animations Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const faders = document.querySelectorAll('.fade-in');
+            const appearOptions = {
+                threshold: 0.2, // Trigger when 20% visible
+                rootMargin: "0px 0px -50px 0px" // Trigger slightly before crossing threshold
+            };
+
+            const appearOnScroll = new IntersectionObserver(function (entries, observer) {
+                entries.forEach(entry => {
+                    if (!entry.isIntersecting) return;
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                });
+            }, appearOptions);
+
+            faders.forEach(fader => {
+                appearOnScroll.observe(fader);
+            });
+        });
+    </script>
+</body>
+
+</html>
