@@ -9,7 +9,7 @@ const translations = {
         "hero_text": "Ми об’єднали багатовіковий досвід італійських селекціонерів із потенціалом українського чорнозему. Наш сад у Тетієві — це втілення майбутнього агропромисловості, де кожен гектар працює за найвищими світовими стандартами.",
         "hero_btn": "Ознайомитися з проєктом",
         "proj_title": "Масштаб, що вражає. Технології, що надихають.",
-        "proj_p1": "Проєкт промислового вирощування фундука ми розпочали у 2018 році. Сьогодні площа насаджень становить понад <strong>500 гектарів</strong> на околицях м. Тетіїв (ТОВ \"ПОПП ЕЛІТА\").",
+        "proj_p1": "Проєкт промислового вирощування фундука ми розпочали у 2018 році. Сьогодні площа насаджень становить понад <strong>500 гектарів</strong> на околицях м. Тетіїв (\"ПОПП ЕЛІТА\").",
         "proj_p2": "Фундук — це окультурена форма ліщини, рідної для українських лісів, але наш підхід перетворив його на високотехнологічний та високоефективний бізнес.",
         "proj_p3": "Наш сад створений за суворими італійськими стандартами. Ми інтегрували в нього передові світові рішення: від автоматизованого моніторингу стану дерева до інтелектуальних систем живлення. Сьогодні це не просто сільськогосподарське підприємство, а екосистема, яка буде актуальною десятиліттями.",
         "loc_title": "Локація",
@@ -68,7 +68,7 @@ const translations = {
         "hero_text": "We combined centuries of Italian breeding experience with the potential cycle of Ukrainian black soil. Our orchard in Tetiiv is the embodiment of the agricultural future: every hectare operates at the highest global standards.",
         "hero_btn": "Explore the Project",
         "proj_title": "Impressive scale. Inspiring technologies.",
-        "proj_p1": "We launched our industrial hazelnut cultivation project in 2018. Today, our orchard spans over <strong>500 hectares</strong> near the town of Tetiiv (LLC \"PAEP Elita\").",
+        "proj_p1": "We launched our industrial hazelnut cultivation project in 2018. Today, our orchard spans over <strong>500 hectares</strong> near the town of Tetiiv (\"PAEP Elita\").",
         "proj_p2": "Hazelnut is a cultured form of hazel, native to Ukrainian forests, but our approach has transformed it into a highly technological and efficient business.",
         "proj_p3": "Our orchard was established according to strict Italian standards. We integrated cutting-edge global solutions: from automated tree health monitoring to intelligent nutrition systems. Today, this is not just an agricultural enterprise, but an ecosystem that will remain relevant for decades.",
         "loc_title": "Location",
@@ -127,7 +127,7 @@ const translations = {
         "hero_text": "Abbiamo combinato secoli di esperienza riproduttiva italiana con il potenziale del suolo nero ucraino. Il nostro noccioleto a Tetiiv è l'incarnazione del futuro agricolo, dove ogni ettaro opera ai massimi standard mondiali.",
         "hero_btn": "Scopri il Progetto",
         "proj_title": "Scala impressionante. Tecnologie stimolanti.",
-        "proj_p1": "Abbiamo avviato il nostro progetto di coltivazione industriale di nocciole nel 2018. Oggi le nostre piantagioni coprono oltre <strong>500 ettari</strong> vicino alla città di Tetiiv (SRL \"PAEP Elita\").",
+        "proj_p1": "Abbiamo avviato il nostro progetto di coltivazione industriale di nocciole nel 2018. Oggi le nostre piantagioni coprono oltre <strong>500 ettari</strong> vicino alla città di Tetiiv (\"PAEP Elita\").",
         "proj_p2": "Il nocciolo è una forma coltivata della pianta nativa delle foreste ucraine, ma il nostro approccio l'ha trasformato in un'impresa altamente tecnologica ed efficiente.",
         "proj_p3": "Il nostro noccioleto è stato creato secondo rigorosi standard italiani. Abbiamo integrato le migliori soluzioni mondiali: dal monitoraggio automatizzato dello stato degli alberi ai sistemi di nutrizione intelligenti. Oggi questa non è solo un'impresa agricola, ma un ecosistema che rimarrà rilevante per decenni.",
         "loc_title": "Posizione",
@@ -191,10 +191,10 @@ function setLang(lang) {
         btn.classList.remove('active');
     });
     const activeBtn = document.querySelector(`.lang-btn[data-lang="${lang}"]`);
-    if(activeBtn) {
+    if (activeBtn) {
         activeBtn.classList.add('active');
     }
-    
+
     // Set document lang attribute
     document.documentElement.lang = lang;
 }
