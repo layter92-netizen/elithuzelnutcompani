@@ -9,9 +9,7 @@
     <!-- Google Fonts: Bodoni Moda (Headings) & Montserrat (Body text) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cinzel:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
     <!-- FontAwesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -27,17 +25,16 @@
     <nav class="navbar fade-in">
         <div class="container">
             <div class="nav-top">
-                <div class="nav-top-left"></div>
+                <div class="nav-top-left" style="display: flex; align-items: center; justify-content: flex-start; padding-left: 15px;">
+                    <img src="https://gals-agro.com/assets/img/header/logo.svg" alt="Gals Agro Logo" style="height: 40px; object-fit: contain;">
+                </div>
                 <div class="logo">
-                    <svg viewBox="0 0 24 24" width="36" height="36" fill="#4b6a4b" style="margin-right: 15px;">
-                        <path
-                            d="M17,8C17,5.24 14.76,3 12,3C9.24,3 7,5.24 7,8C4.24,8 2,10.24 2,13C2,15.76 4.24,18 7,18H10V22H14V18H17C19.76,18 22,15.76 22,13C22,10.24 19.76,8 17,8Z">
-                        </path>
+                    <svg viewBox="0 0 24 24" width="36" height="36" fill="var(--primary-color)" style="margin-right: 15px;">
+                        <path d="M17,8C17,5.24 14.76,3 12,3C9.24,3 7,5.24 7,8C4.24,8 2,10.24 2,13C2,15.76 4.24,18 7,18H10V22H14V18H17C19.76,18 22,15.76 22,13C22,10.24 19.76,8 17,8Z"></path>
                     </svg>
                     <div style="display: flex; flex-direction: column; line-height: 1;">
                         <span>Elite Hazelnut</span>
-                        <span
-                            style="font-size: 0.45em; letter-spacing: 5px; color: var(--accent-color); font-family: var(--font-body); text-transform: uppercase; margin-top: 4px;">Company</span>
+                        <span style="font-size: 0.45em; letter-spacing: 5px; color: var(--accent-color); font-family: var(--font-body); text-transform: uppercase; margin-top: 4px;">Company</span>
                     </div>
                 </div>
                 <div class="nav-top-right">
@@ -62,11 +59,15 @@
 
     <!-- Hero Section -->
     <header class="hero" id="home">
-        <div class="container hero-content fade-in"
-            style="display: flex; flex-direction: column; justify-content: flex-start; margin-top: 60px;">
-            <div class="hero-text-block">
-                <h1 class="hero-title" data-i18n="hero_title">ПОПП «ЕЛІТА»</h1>
-                <h2 class="hero-subtitle" data-i18n="hero_subtitle">Новий еталон<br>інтенсивного<br>садівництва.</h2>
+        <div class="container">
+            <div class="hero-content fade-in">
+                <p class="hero-subtitle" style="font-size: 2.2rem; font-weight: 700; margin-bottom: 20px; line-height: 1.2;" data-i18n="hero_subtitle">Elite Hazelnut Company, новий еталон інтенсивного фундуківництва.</p>
+                <p style="font-size: 1.1rem; max-width: 600px; margin: 0 auto 40px auto; line-height: 1.6;"
+                    data-i18n="hero_text">Ми об’єднали багатовіковий досвід
+                    італійських селекціонерів із
+                    потенціалом українського чорнозему. Наш сад у Тетієві — це втілення майбутнього агропромисловості, де
+                    кожен гектар працює за найвищими світовими стандартами.</p>
+                <a href="#genetics" class="btn btn-primary" data-i18n="hero_btn">Дізнатися більше</a>
             </div>
         </div>
     </header>
@@ -123,8 +124,8 @@
     <section class="section genetics" id="genetics">
         <div class="container">
             <div class="section-header fade-in">
-                <h2 class="section-title text-light" data-i18n="gen_title">Фундук преміальної якості.</h2>
-                <p class="section-subtitle text-light" style="color: #ccc;" data-i18n="gen_sub">Основа нашого успіху —
+                <h2 class="section-title" data-i18n="gen_title">Фундук преміальної якості.</h2>
+                <p class="section-subtitle" data-i18n="gen_sub">Основа нашого успіху —
                     безкомпромісний вибір
                     сортів. Ми вирощуємо легендарні італійські сорти, що цінуються найкращими кондитерами світу за їхній
                     смак, аромат та калібр.</p>
@@ -136,7 +137,7 @@
                     <img src="foto 4.jpg" alt="Фундук Tonda Gentile" class="variety-img">
                 </div>
                 <div class="variety-info">
-                    <ul class="variety-list text-light">
+                    <ul class="variety-list">
                         <li>
                             <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" class="gold-icon"
                                 style="flex-shrink: 0; margin-top: 5px;">
@@ -145,11 +146,11 @@
                                 </path>
                             </svg>
                             <div class="variety-content">
-                                <strong class="variety-title text-light" data-i18n="v1_title">1. Tonda Gentile</strong>
-                                <p class="variety-desc text-light" data-i18n="v1_desc">Цей сорт вважається найкращим у
+                                <strong class="variety-title" data-i18n="v1_title">1. Tonda Gentile</strong>
+                                <p class="variety-desc" data-i18n="v1_desc">Цей сорт вважається найкращим у
                                     світі для кондитерської
                                     промисловості завдяки своїм неперевершеним органолептичним властивостям.</p>
-                                <ul class="variety-features text-light">
+                                <ul class="variety-features">
                                     <li><span data-i18n="origin_lbl">Походження:</span> <span
                                             data-i18n="v1_origin">Регіон П’ємонт, Північна Італія.</span></li>
                                     <li><span data-i18n="fruit_lbl">Характеристики плоду:</span> <span
@@ -174,12 +175,12 @@
                                 </path>
                             </svg>
                             <div class="variety-content">
-                                <strong class="variety-title text-light" data-i18n="v2_title">2. Tonda di
+                                <strong class="variety-title" data-i18n="v2_title">2. Tonda di
                                     Giffoni</strong>
-                                <p class="variety-desc text-light" data-i18n="v2_desc">Сорт, що є візитною карткою
+                                <p class="variety-desc" data-i18n="v2_desc">Сорт, що є візитною карткою
                                     регіону Кампанія. Він цінується за
                                     ідеальну калібровку та універсальність.</p>
-                                <ul class="variety-features text-light">
+                                <ul class="variety-features">
                                     <li><span data-i18n="origin_lbl">Походження:</span> <span
                                             data-i18n="v2_origin">Провінція Салерно, Італія.</span></li>
                                     <li><span data-i18n="fruit_lbl">Характеристики плоду:</span> <span
@@ -201,7 +202,7 @@
             </div>
 
             <div class="fade-in delay-2" style="text-align: center;">
-                <p class="highlight-text text-light" style="display: inline-block; text-align: left;"
+                <p class="highlight-text" style="display: inline-block; text-align: left;"
                     data-i18n="export_txt">Завдяки професійному догляду,
                     навіть у складні кліматичні сезони ми отримуємо продукцію, якість якої порівнянна з кращими зразками
                     чилійського фундука. Весь врожай контрактується на експорт.</p>
@@ -244,7 +245,7 @@
             <div class="text-content-blocks"
                 style="margin-top: 60px; display: grid; grid-template-columns: 1fr 1fr; gap: 40px;">
                 <div class="text-block fade-in delay-2"
-                    style="background: #fdfdf9; padding: 40px; border-radius: 8px; border-left: 4px solid var(--accent-color); box-shadow: 0 10px 30px rgba(0,0,0,0.03);">
+                    style="background: #ffffff; padding: 40px; border-radius: 20px; border-left: 4px solid var(--accent-color); box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
                     <h3 style="margin-bottom: 20px; font-size: 1.5rem; color: var(--primary-color);"
                         data-i18n="gold_title">Золото для здоров'я
                     </h3>
@@ -258,7 +259,7 @@
                 </div>
 
                 <div class="text-block fade-in delay-2"
-                    style="background: var(--bg-gray); padding: 40px; border-radius: 8px; border-left: 4px solid var(--primary-color); box-shadow: 0 10px 30px rgba(0,0,0,0.03);">
+                    style="background: var(--bg-gray); padding: 40px; border-radius: 20px; border-left: 4px solid var(--primary-color); box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
                     <h3 style="margin-bottom: 20px; font-size: 1.5rem; color: var(--primary-color);"
                         data-i18n="futu_title">Внесок у майбутнє
                     </h3>
@@ -279,9 +280,6 @@
         <div class="container">
             <div class="footer-grid fade-in">
                 <div class="footer-info">
-                    <h2 class="footer-logo" data-i18n="foot_logo">ПОПП «ЕЛІТА»</h2>
-                    <p class="company-desc" data-i18n="foot_desc">Приватне орендне племінне підприємство «Еліта».</p>
-                    <p data-i18n="foot_chief">Завжди на зв'язку. Директор — Мостова Леся Анатоліївна.</p>
                 </div>
                 <div class="footer-contacts">
                     <h3 data-i18n="foot_ct_title">Контакти</h3>

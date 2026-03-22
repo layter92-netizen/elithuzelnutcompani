@@ -4,8 +4,8 @@ const translations = {
         "nav_quality": "Якість",
         "nav_tech": "Технології",
         "nav_contacts": "Контакти",
-        "hero_title": "ПОПП «Еліта»",
-        "hero_subtitle": "Новий еталон інтенсивного садівництва.",
+        "hero_title": "",
+        "hero_subtitle": "Elite Hazelnut Company, новий еталон інтенсивного фундуківництва.",
         "hero_text": "Ми об’єднали багатовіковий досвід італійських селекціонерів із потенціалом українського чорнозему. Наш сад у Тетієві — це втілення майбутнього агропромисловості, де кожен гектар працює за найвищими світовими стандартами.",
         "hero_btn": "Ознайомитися з проєктом",
         "proj_title": "Масштаб, що вражає. Технології, що надихають.",
@@ -51,20 +51,17 @@ const translations = {
         "futu_title": "Внесок у майбутнє",
         "futu_p1": "Багаторічні насадження сприяють збереженню екосистеми регіону. Один фундуковий сад може повноцінно плодоносити 50 років, а попит на поживні горіхи в світі стабільно зростає.",
         "futu_p2": "Наші горіхи проходять шлях від садів Київщини до полиць магазинів по всьому світу. Ми створюємо технологічне майбутнє сільського господарства України.",
-        "foot_logo": "ПОПП «ЕЛІТА»",
-        "foot_desc": "Приватне орендне племінне підприємство «Еліта».",
-        "foot_chief": "Завжди на зв'язку. Директор — Мостова Леся Анатоліївна.",
         "foot_ct_title": "Контакти",
         "foot_addr": "Україна, Київська обл., м. Тетіїв.",
-        "foot_copy": "&copy; 2026 ПОПП «Еліта». Усі права захищені."
+        "foot_copy": "&copy; 2026 Elite Hazelnut Company. Усі права захищені."
     },
     "en": {
         "nav_project": "Project",
         "nav_quality": "Quality",
         "nav_tech": "Technologies",
         "nav_contacts": "Contacts",
-        "hero_title": "PAEP \"Elita\"",
-        "hero_subtitle": "A new standard in intensive horticulture.",
+        "hero_title": "",
+        "hero_subtitle": "Elite Hazelnut Company, a new standard in intensive hazelnut farming.",
         "hero_text": "We combined centuries of Italian breeding experience with the potential cycle of Ukrainian black soil. Our orchard in Tetiiv is the embodiment of the agricultural future: every hectare operates at the highest global standards.",
         "hero_btn": "Explore the Project",
         "proj_title": "Impressive scale. Inspiring technologies.",
@@ -110,20 +107,17 @@ const translations = {
         "futu_title": "Contribution to the Future",
         "futu_p1": "Perennial plantings contribute to the preservation of the region's ecosystem. A single hazelnut orchard can fully bear fruit for 50 years, and the global demand for nutritious nuts is steadily growing.",
         "futu_p2": "Our nuts travel from the orchards of the Kyiv region to store shelves all over the world. We are creating the technological future of Ukraine's agriculture.",
-        "foot_logo": "PAEP \"ELITA\"",
-        "foot_desc": "Private Agricultural Enterprise of Partners \"Elita\".",
-        "foot_chief": "Always in touch. Director — Lesia Mostova.",
         "foot_ct_title": "Contacts",
         "foot_addr": "Ukraine, Kyiv region, Tetiiv.",
-        "foot_copy": "&copy; 2026 PAEP \"Elita\". All rights reserved."
+        "foot_copy": "&copy; 2026 Elite Hazelnut Company. All rights reserved."
     },
     "it": {
         "nav_project": "Progetto",
         "nav_quality": "Qualità",
         "nav_tech": "Tecnologia",
         "nav_contacts": "Contatti",
-        "hero_title": "PAEP \"Elita\"",
-        "hero_subtitle": "Un nuovo standard nell'orticoltura intensiva.",
+        "hero_title": "",
+        "hero_subtitle": "Elite Hazelnut Company, un nuovo standard nella coltivazione intensiva del nocciolo.",
         "hero_text": "Abbiamo combinato secoli di esperienza riproduttiva italiana con il potenziale del suolo nero ucraino. Il nostro noccioleto a Tetiiv è l'incarnazione del futuro agricolo, dove ogni ettaro opera ai massimi standard mondiali.",
         "hero_btn": "Scopri il Progetto",
         "proj_title": "Scala impressionante. Tecnologie stimolanti.",
@@ -169,12 +163,9 @@ const translations = {
         "futu_title": "Contributo al Futuro",
         "futu_p1": "Le piantagioni perenni contribuiscono alla conservazione dell'ecosistema della regione. Un noccioleto può produrre frutti per 50 anni e la domanda mondiale è in costante aumento.",
         "futu_p2": "Le nostre noci viaggiano dai frutteti della regione di Kiev agli scaffali dei negozi di tutto il mondo. Stiamo creando il futuro tecnologico dell'agricoltura ucraina.",
-        "foot_logo": "PAEP \"ELITA\"",
-        "foot_desc": "Azienda Agricola Privata di Partner \"Elita\".",
-        "foot_chief": "Sempre in contatto. Direttore — Lesia Mostova.",
         "foot_ct_title": "Contatti",
         "foot_addr": "Ucraina, regione di Kiev, Tetiiv.",
-        "foot_copy": "&copy; 2026 PAEP \"Elita\". Tutti i diritti riservati."
+        "foot_copy": "&copy; 2026 Elite Hazelnut Company. Tutti i diritti riservati."
     }
 };
 
